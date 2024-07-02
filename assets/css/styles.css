@@ -43,3 +43,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* navbar ---------------------------------- */
+.navbar {
+    height: 54px;
+    max-width: 935px;
+    margin: 0 auto;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
+
+.navbar > img {
+    width: 103px;
+    height: 29px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+@media (max-width: 935px) {
+
+}
+
+@media (max-width: 614px) {
+    
+}
